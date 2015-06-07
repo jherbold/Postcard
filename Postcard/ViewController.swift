@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // hello, world, comment.
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.text = enterMessageTextField.text
